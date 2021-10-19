@@ -1,11 +1,9 @@
-@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap");
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "cwTeXYen", "Noto Sans TC", "sans-serif";
-  background-image: url("src/historybg.jpg");
+  font-family: "IM Fell English SC", "Noto Sans TC", sans-serif;
+  background-image: url("src/historybg.webp");
   background-size: contain;
   max-width: 100%;
 }
@@ -24,6 +22,7 @@ body {
 }
 .main .mainbg {
   max-width: 100%;
+  height: auto;
 }
 .main .mainobj {
   position: absolute;
@@ -104,6 +103,7 @@ body {
 }
 .bread .breadshow img {
   max-width: 100%;
+  height: auto;
 }
 .bread .breadshow .tl1 {
   font-weight: 600;
@@ -132,12 +132,12 @@ body {
 .drinking .down {
   max-width: 300px;
   width: 100%;
-  background-image: url("src/bucket.png");
+  background-image: url("src/bucket.webp");
   background-repeat: no-repeat;
   background-position: 0 0%;
-  overflow: hidden;
   transform: scale(1);
   z-index: 0;
+  overflow: hidden;
   position: absolute;
   top: 10%;
   right: 0;
@@ -163,11 +163,11 @@ body {
   top: 90%;
   text-align: center;
 }
-
 .drinking .drinking1 {
   width: 100%;
   overflow: hidden;
   position: relative;
+  height: auto;
 }
 .drinking2,
 .drinking3 {
@@ -177,10 +177,9 @@ body {
   width: 100%;
   top: 20%;
   left: 0;
+  height: auto;
 }
-.pin-spacer {
-  overflow: hidden;
-}
+
 /* break ponit */
 @media (max-width: 1366px) {
   .bigtext {
@@ -338,7 +337,6 @@ body {
   .drinking .down {
     transform: scale(0.4);
     top: -20%;
-    right: -15%;
   }
   .drinkingt2 {
     top: 65%;

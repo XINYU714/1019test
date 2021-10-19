@@ -1,4 +1,3 @@
-
 let frame_count  = 2,offset_value = 150;
 let timeHeight=document.getElementById('time').style.height;
 let myvalue=['.timesub','.timecontent'];
@@ -52,9 +51,10 @@ gsap.to(".down", {
       trigger: ".down",
       pin: true,
       start: "top center",
+      pinspacing:true,
       end: "+=" + (0.8* offset_value),
       scrub: true,
-      snap:1,
+      snap:true,
     }
   });
   /*show*/

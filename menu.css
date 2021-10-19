@@ -1,8 +1,3 @@
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 .push {
   height: 100%;
   width: 100%;
@@ -17,7 +12,7 @@ body {
   display: flex;
   transform: translate(-50%, -50%) scale(0.8);
   top: 50%;
-  left: 40%;
+  left: 55%;
   max-width: 100%;
   justify-content: center;
   margin-top: 5%;
@@ -68,7 +63,7 @@ body {
   .overlay-content {
     transform: translate(-50%, -50%) scale(0.6);
     flex-wrap: nowrap;
-    left: 45%;
+    left: 42%;
   }
 }
 @media (max-width: 768px) {
