@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中世紀日常</title>
+    <link rel="stylesheet" href="history.css">
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>  
+    <div id="myNav" class="push">
+    <a href="#" class="closebtn" id="close" >&times;</a>
+    <div class="overlay-content">
+      <a href="#"><img src="src/aspenne.png" alt="1" srcset="" ></a>
+      <a href="#"><img src="src/daily.png" alt="2" srcset=""></a>
+      <a href="#"><img src="src/witchmt.png" alt="3" srcset=""></a>
+    </div>
+    <img src="src/menuv3.png" alt="bg" srcset="" class="fly">
+  </div>
+ <div id="menu" class="midtext">Menu</div>
+    
+ <section class="main">
+    <div class="maintl"><img src="src/daily.png" alt=""></div>
+        <img src="src/historymainbg.png" alt="" srcset="" class="mainbg">
+        <img src="src/historymainobj.png" alt="" srcset="" class="mainobj">    
+    </section>
+    <section class="time" id="time">
+        <div class="timecontent bigtext">中世紀是一日兩餐，不是一日三餐?</div>
+        <div class="clock">
+            <img src="src/clock2.png" alt="" srcset="" class="clockby">
+            <img src="src/hour2.png" alt="" class="hour">
+
+        </div>
+        <p class="timesub midtext">正餐為早上10點，晚餐為5點</p>
+    </section>
+   <section class="bread">
+       <div class="breadtl bigtext">穀類是歐洲人最重要的主食</div>
+       <div class="breadsub midtext">多數製成麵包，但有時會煮成稀粥和麵條</div>
+       <div class="breadshow">
+           <div class="rich">
+               <img src="src/circlebread.png" alt="" srcset="">
+               <div class="tl1">菁英階層</div>
+               <div class="tl2 midtext">最好的小麥製作的精白麵粉<br>價格最高，營養亦高</div>
+           </div>
+           <div class="poor">
+               <img src="src/thinbread.png">
+               <div class="tl1">貧窮家庭</div>
+               <div class="tl2 midtext">黑麥、大麥甚至燕麥<br>粗糙麵包托盤的形狀</div>
+           </div>
+       </div>
+   </section>
+   <section class="drinking">
+       <div class="down"></div>
+       <div class="drinkingtl bigtext">「只喝酒?不喝水?」</div>
+       <div class="drinkingct midtext">
+        中世紀乾淨的水源不易取得<br>也沒有喝開水的習慣<br>酒精飲料易保存
+       </div>
+
+       <div class="drinkingt1 midtext">啤酒更受平民歡迎，大部分人把啤酒作為飲食的一部分</div>
+       <div class="drinkingt2 midtext">貴族飲用第一次擠壓出來的上品酒<br>平民則是二三次擠壓的葡萄酒<br>而最窮的人只能喝得起葡萄製成的黑醋</div>
+
+       <picture>
+        <source media="(max-width:768px)" srcset="src/drinkng11.png" class="drinking1">
+        <img src="src/drinkng1.png" alt="Flowers" class="drinking1">
+      </picture> 
+      <picture>
+        <source media="(max-width:768px)" srcset="src/drinkng22.png" class="drinking2">
+        <img src="src/drinkng2.png" alt="Flowers" class="drinking3">
+      </picture> 
+      <picture>
+        <source media="(max-width:768px)" srcset="src/drinkng33.png" class="drinking3">
+        <img src="src/drinkng3.png" alt="Flowers" class="drinking3">
+      </picture> 
+   </section>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
+   <script src="history.js"></script>
+   <script src="menu.js"></script>
+</body>
+</html>
